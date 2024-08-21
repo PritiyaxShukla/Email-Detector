@@ -9,6 +9,7 @@ from nltk .tokenize import PunktTokenizer
 
 import nltk
 
+nltk.download('stopwords')
 
 nltk.download('punkt_tab')
 # Initialize PorterStemmer
