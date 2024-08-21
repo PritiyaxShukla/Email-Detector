@@ -44,7 +44,7 @@ tf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
 
 # Streamlit UI
-st.title('Email/SMS Spam Classifier')
+st.title('Email/SMS Spam Classifier Made by Pritiyax Shukla')
 
 input_sms = st.text_input("Enter the message")
 
